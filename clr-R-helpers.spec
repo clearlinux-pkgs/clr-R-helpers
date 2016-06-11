@@ -1,6 +1,6 @@
 Name:           clr-R-helpers
 Version:        1
-Release:        10
+Release:        11
 License:        GPL-2.0
 Summary:        Helper files for R support
 Url:            https://01.org/
@@ -10,7 +10,10 @@ Requires:	R-dev
 Requires:	R-testthat
 Requires: 	R-knitr
 Requires:	R-crayon
-
+Requires: 	R-R6
+Requires: 	R-digest
+Requires: 	R-magrittr
+Requires: 	R-praise
 %description
 Helper files for R support
 
